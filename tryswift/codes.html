@@ -1,12 +1,14 @@
 ---
 layout: default
+css: rouge
 ---
 
 <section>
   <div class="container">
     <div class="row">
       <div class="col-xs-12">
-        <a href="/tryswift">try! Swift</a>
+        {% capture codes %}{% include tryswift/codes.md %}{% endcapture %}
+        {{ codes | markdownify }}
       </div>
     </div>
   </div>
