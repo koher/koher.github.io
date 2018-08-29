@@ -1,6 +1,8 @@
 ---
 ---
 
+$theme: #b2b8bf;
+
 body {
   padding-top: 50px;
   font-size: medium;
@@ -12,14 +14,43 @@ section {
   padding-bottom: 20px;
 }
 
+a {
+    color: #0094ff;
+
+    &:hover {
+        color: #0064cc;
+    }
+
+    &:focus {
+        color: #0094ff;
+    }
+}
+
+li {
+    font-weight: bold;
+}
+
 code.highlighter-rouge {
     color: #333;
     background-color: #f8f8f8;
     border: 1px solid #cccccc;
 }
 
-li {
-    font-weight: bold;
+.navbar-default {
+    color: #ffffff;
+    background-color: $theme;
+
+    .navbar-brand {
+        color: #ffffff;
+
+        &:hover {
+            color: #eeeeee;
+        }
+
+        &:focus {
+            color: #ffffff;
+        }
+    }
 }
 
 .kh-date {
