@@ -5,7 +5,7 @@ $theme: #b2b8bf;
 
 body {
   padding-top: 50px;
-  font-size: medium;
+  font-size: 12pt;
   line-height: 180%;
 }
 
@@ -24,6 +24,10 @@ a {
     &:focus {
         color: #0094ff;
     }
+}
+
+h1 {
+    font-size: 28pt;
 }
 
 li {
@@ -56,5 +60,5 @@ code.highlighter-rouge {
 .kh-date {
     text-align: right;
     font-weight: bold;
-    font-size: large;
+    font-size: 12pt;
 }
